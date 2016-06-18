@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyBars", "PrettyBars\PrettyBars.csproj", "{1C7F1DDB-7AC8-40E9-80F2-3FC366AB1BBF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{553304DB-3622-43F1-833E-BC2B985402DE}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\nuget.exe = Tools\nuget.exe
+		Tools\PrettyBars.nuspec = Tools\PrettyBars.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

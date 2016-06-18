@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>0.1.0</version>
+    <authors>tmyt</authors>
+    <owners>tmyt</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://github.com/tmyt/PrettyBars</projectUrl>
+    <id>PrettyBars</id>
+    <title>PrettyBars</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Tunes your UWP titlebar and statusbar.</description>
+    <language>en-US</language>
+    <tags>xaml uap uwp titlebar statusbar</tags>
+  </metadata>
+  <files>
+    <file src="..\PrettyBars\Properties\PrettyBars.rd.xml" target="lib\uap10.0\PrettyBars\Properties\PrettyBars.rd.xml" />
+    <file src="..\PrettyBars\bin\Release\PrettyBars.pri" target="lib\uap10.0\PrettyBars.pri" />
+    <file src="..\PrettyBars\bin\Release\PrettyBars.dll" target="lib\uap10.0\PrettyBars.dll" />
+  </files>
+</package>
